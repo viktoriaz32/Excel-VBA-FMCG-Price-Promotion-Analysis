@@ -10,6 +10,21 @@ Upload in progress
 </div>
 
 ## Business question definition
+The key business questions are defined in order to clarify the commercial objectives of the analysis and ensure all subsequent work remains aligned with decision-making needs and value delivery. The FMCG company requires a deep understanding of how pricing, promotions, and competitive dynamics influence sales and margin performance, therefore pricing decisions, promotional planning, and resource allocation can be made more effectively.
+
+### Key Business Questions:
+
+**1. Price sensitivity:** How do changes in price affect sales volume, revenue, and margin across different products and store segments?
+
+**2. Promotion effectiveness:** To what extent do promotions generate incremental demand versus merely shifting existing sales?
+
+**3. Profitability of promotions:** Which promotional campaigns drive positive margin contribution, and which result in margin erosion?
+
+**4. Promotion ROI:** What is the return on investment (ROI) of promotional activities when comparing incremental sales to promotional costs?
+
+**5. Competitive price positioning:** How do our price levels compare to competitor offerings, and how does this positioning influence customer purchasing behavior?
+
+**6. Media and marketing influence:** What role does media or marketing support play in amplifying or moderating the effects of pricing and promotional activities?
 
 ## Analytical approach design
 
