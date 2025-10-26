@@ -23,10 +23,28 @@ The key business questions are defined in order to clarify the commercial object
 
 ## Analytical approach design
 
-Definition of the analytical techniques and evaluation framework ensures the repeatability of the analysis and alignment with commercial decision-making needs. The analytical approach assesses the commercial impact of pricing and promotional activities, as well as the measurement of price responsiveness and promotional profitability, while incorporating competitive and marketing context.
+In this step, the analytical techniques and evaluation logic are defined to ensure that the analysis is consistent, repeatable, and aligned with commercial decision-making needs. The approach specifies how sales performance will be decomposed into baseline and incremental components, how price responsiveness will be measured, and how promotional and competitive effects will be quantified.
+
+The key performance indicators are categorized to reflect different analytical perspectives:
+- Sales Metrics: sales volume, revenue, margin, and average selling price.
+- Baseline and Incremental Metrics: baseline demand, incremental uplift during promotions, incremental revenue, and incremental margin.
+- Price Sensitivity Metrics: price elasticity and price–volume relationships.
+- Promotion Effectiveness Metrics: promotional uplift, cost of promotion, and ROI.
+- Competitive Positioning Metrics: price index and relative price gap to competitors.
+- Media and Marketing Influence Metrics: media support levels and their interaction with sales and promotion outcomes.
 
 ## Data structure and integration setup
 
+This step establishes a consistent data foundation that enables reliable analysis and automated reporting. The objective is to organize the raw data into a structured model where each dataset (Sales, Products, Stores, Calendar, Promos, Pricelist, Competitor, Media) is connected through common keys and standardized formats.
+
+The data is integrated using conformed dimensions such as Product, Store, and Date, ensuring that performance metrics can be analyzed consistently across categories, channels, and time periods. During this step, data types are aligned, lookup relationships are validated, and the datasets are prepared for efficient processing in VBA.
+
+To support the analytical model, the workbook is organized as:
+- Fact table: Sales transactions and promotional activity records.
+- Dimension tables: Products (product attributes) Stores (store attributes), and Calendar (calendar variables).
+- Supporting tables: Pricelist (list of prices), Competitor (competitor price data), and Media (media activity inputs).
+
+This structured data model enables the analysis pipeline to run consistently, supports repeatability, and provides a clean foundation for the KPI calculations and dashboard automation that follow.
 ## Data preparation and cleaning
 
 ## Modeling and KPI computation
