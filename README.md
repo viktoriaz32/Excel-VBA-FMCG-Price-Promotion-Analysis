@@ -23,6 +23,8 @@ The key business questions are defined in order to clarify the commercial object
 
 ## Analytical approach design
 
+Definition of the analytical techniques and evaluation framework ensures the repeatability of the analysis and alignment with commercial decision-making needs. The analytical approach assesses the commercial impact of pricing and promotional activities, as well as the measurement of price responsiveness and promotional profitability, while incorporating competitive and marketing context.
+
 ## Data structure and integration setup
 
 ## Data preparation and cleaning
