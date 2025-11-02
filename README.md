@@ -35,6 +35,8 @@ The key performance indicators are categorized to reflect different analytical p
 
 ## Data structure and integration setup
 
+**Note:** All data used in this portfolio project is fictional and does not represent any real companies, products, stores, brands, or market activities.
+
 This step establishes a consistent data foundation that enables reliable analysis and automated reporting. The objective is to organize the raw data into a structured model where each dataset (Sales, Products, Stores, Calendar, Promos, Pricelist, Competitor, Media) is connected through common keys and standardized formats.
 
 The data is integrated using conformed dimensions such as Product, Store, and Date, ensuring that performance metrics can be analyzed consistently across categories, channels, and time periods. During this step, data types are aligned, lookup relationships are validated, and the datasets are prepared for efficient processing in VBA.
