@@ -47,6 +47,15 @@ To support the analytical model, the workbook is organized as:
 - Supporting tables: Pricelist (list of prices), Competitor (competitor price data), and Media (media activity inputs).
 
 This structured data model enables the analysis pipeline to run consistently, supports repeatability, and provides a clean foundation for the KPI calculations and dashboard automation that follow.
+
+### DataValidation sheet
+
+Manual checks (COUNTIF/COUNTIFS, SUMPRODUCT) verify keys and relationships before any modeling or automation.
+
+### LookupMap
+
+Join blueprint: It shows which tables join on which keys, and the exact lookup formulas (INDEX/MATCH, COUNTIFS keys, helper keys).
+
 ## Data preparation and cleaning
 
 ## Modeling and KPI computation
