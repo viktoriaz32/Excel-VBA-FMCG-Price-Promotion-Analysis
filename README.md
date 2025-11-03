@@ -26,12 +26,12 @@ The key business questions are defined in order to clarify the commercial object
 In this step, the analytical techniques and evaluation logic are defined to ensure that the analysis is consistent, repeatable, and aligned with commercial decision-making needs. The approach specifies how sales performance will be decomposed into baseline and incremental components, how price responsiveness will be measured, and how promotional and competitive effects will be quantified.
 
 The key performance indicators are categorized to reflect different analytical perspectives:
-- Sales Metrics: sales volume, revenue, margin, and average selling price.
-- Baseline and Incremental Metrics: baseline demand, incremental uplift during promotions, incremental revenue, and incremental margin.
-- Price Sensitivity Metrics: price elasticity and price–volume relationships.
-- Promotion Effectiveness Metrics: promotional uplift, cost of promotion, and ROI.
-- Competitive Positioning Metrics: price index and relative price gap to competitors.
-- Media and Marketing Influence Metrics: media support levels and their interaction with sales and promotion outcomes.
+- Sales metrics: sales volume, revenue, margin, and average selling price.
+- Baseline and incremental Metrics: baseline demand, incremental uplift during promotions, incremental revenue, and incremental margin.
+- Price sensitivity metrics: price elasticity and price–volume relationships.
+- Promotion effectiveness metrics: promotional uplift, cost of promotion, and ROI.
+- Competitive positioning metrics: price index and relative price gap to competitors.
+- Media and marketing influence metrics: media support levels and their interaction with sales and promotion outcomes.
 
 ## Data structure and integration setup
 
