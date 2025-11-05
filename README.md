@@ -61,6 +61,8 @@ The dataset contains the following tables:
 
 This step establishes a consistent data foundation that enables reliable analysis and automated reporting. The objective is to organize the raw data into a structured model where each dataset (Sales, Products, Stores, Calendar, Promos, Pricelist, Competitor, Media) is connected through common keys and standardized formats.
 
+### Data Integration Model (STAR-Schema data model)
+
 The data is integrated using conformed dimensions such as Product, Store, and Date, ensuring that performance metrics can be analyzed consistently across categories, channels, and time periods. During this step, data types are aligned, lookup relationships are validated, and the datasets are prepared for efficient processing in VBA.
 
 To support the analytical model, the workbook is organized as:
