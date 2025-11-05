@@ -35,7 +35,27 @@ The key performance indicators are categorized to reflect different analytical p
 
 ## Data structure and integration setup
 
-**Note:** All data used in this portfolio project is fictional and does not represent any real companies, products, stores, brands, or market activities.
+### Dataset Description
+
+**Note:** All data used in this portfolio project is entirely fictional and does not represent any real companies, products, brands, stores, or market activities.
+
+The dataset contains the following tables:
+
+Sales: YearWeek, WeekStart, StoreID, SKU, Units, NetPrice_LCU, NetRevenue_LCU, PromoFlag, FeatureDisplayFlag, OnInvoiceDiscount_Pct, OffInvoiceRebate_Pct, Returns_Units
+
+Products: SKU, Brand, Category, Segment, PackSize_ml, UnitsPerCase, LaunchDate, Status, StdUnitCost_LCU
+
+Stores: StoreID, Retailer, Channel, Region, Format
+
+Calendar: YearWeek, Date, WeekStart, WeekEnd, Month, Quarter, FiscalPeriod, HolidayFlag, Season, ISOWeek, ISOYear
+
+Promos: PromoID,	SKU,	StoreID,	WeekStart, WeekEnd,	Mechanic,	Depth_Pct,	FeatureDisplayFlag, CoopFunding_LCU, Comments,	OverlapCount
+
+Pricelist: YearWeek, SKU, StoreID,	ListPrice_LCU,	AvgNetPrice_LCU,	AvgUnitCost_LCU
+
+Competitor: YearWeek, CompetitorBrand, SKU_Comp, AvgPrice_LCU, PromoFlag
+
+Media: YearWeek, Channel, Spend_LCU, Impressions, GRPs
 
 This step establishes a consistent data foundation that enables reliable analysis and automated reporting. The objective is to organize the raw data into a structured model where each dataset (Sales, Products, Stores, Calendar, Promos, Pricelist, Competitor, Media) is connected through common keys and standardized formats.
 
