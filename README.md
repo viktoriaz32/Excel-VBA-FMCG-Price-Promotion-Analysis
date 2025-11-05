@@ -37,7 +37,9 @@ The key performance indicators are categorized to reflect different analytical p
 
 ### Dataset Description
 
-**Note:** All data used in this portfolio project is entirely fictional and does not represent any real companies, products, brands, stores, or market activities.
+**Note:** All data used in this portfolio project is entirely fictional and does not represent any real companies, products, brands, stores, or market activities. The dataset is a scaled-down demo version created for portfolio presentation purposes.
+
+The analysis uses eight integrated tables simulating a fictional FMCG company's promotional and sales activities across five major Hungarian retailers, covering the full 2024 calendar year. 
 
 The dataset contains the following tables:
 
