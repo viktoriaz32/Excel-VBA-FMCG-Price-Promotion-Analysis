@@ -59,10 +59,6 @@ The dataset contains the following tables:
 
 `Media`: YearWeek, Channel, Spend_LCU, Impressions, GRPs
 
-<div align="center">
-<img width="450" height="601" alt="starschema" src="https://github.com/user-attachments/assets/8688cbb2-e16a-4aad-b530-32a89618ed5f" />
-</div>
-
 This step establishes a consistent data foundation that enables reliable analysis and automated reporting. The objective is to organize the raw data into a structured model where each dataset (Sales, Products, Stores, Calendar, Promos, Pricelist, Competitor, Media) is connected through common keys and standardized formats.
 
 ### Data Integration Model (STAR-Schema data model)
@@ -74,7 +70,9 @@ To support the analytical model, the workbook is organized as:
 - Dimension tables: Products (product attributes) Stores (store attributes), and Calendar (calendar variables).
 - Supporting tables: Pricelist (list of prices), Competitor (competitor price data), and Media (media activity inputs).
 
-This structured data model enables the analysis pipeline to run consistently, supports repeatability, and provides a clean foundation for the KPI calculations and dashboard automation that follow.
+<div align="center">
+<img width="450" height="601" alt="starschema" src="https://github.com/user-attachments/assets/8688cbb2-e16a-4aad-b530-32a89618ed5f" />
+</div>
 
 ### DataValidation sheet
 
