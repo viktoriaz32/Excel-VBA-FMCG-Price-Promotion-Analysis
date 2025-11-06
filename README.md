@@ -95,7 +95,7 @@ Each validator applies a structured set of checks:
 
 The `DataValidation` sheet has five columns where the detected issues are reported.
 
-Note to myself: Insert example screenshot here
+Note for myself: Insert example screenshot here
 
 The invalid or inconsistent cells are highlighted in the sheets as well (light red color=errors, missing values; light yellow color=warnings, suspicious values) The `DataValidation` report combined with the on-sheet highlighting provides a complete traceability for data cleansing.
 
