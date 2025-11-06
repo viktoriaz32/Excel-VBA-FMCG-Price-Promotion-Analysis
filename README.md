@@ -71,7 +71,7 @@ To support the analytical model, the workbook is organized as:
 - Supporting tables: Pricelist (list of prices), Competitor (competitor price data), and Media (media activity inputs).
 
 <div align="center">
-<img width="450" height="601" alt="starschema" src="https://github.com/user-attachments/assets/8688cbb2-e16a-4aad-b530-32a89618ed5f" />
+<img width="450" height="601" alt="starschema" src="https://github.com/user-attachments/assets/08d2b879-32bc-4c7c-ad74-344ac8ed1cc6" />
 </div>
 
 ### DataValidation sheet
