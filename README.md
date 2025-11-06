@@ -84,7 +84,20 @@ Join blueprint: It shows which tables join on which keys, and the exact lookup f
 
 ## Data preparation and cleaning (VBA)
 
+This is the phase where the quality assurance process is automated, ensuring that all input datasets are structurally valid and internally consistent. The VBA validation module standardizes data quality by detecting errors and inconsistencies across the eight integrated data sheet, highlighting invalid cells directly within source tables, logging all validation issues in a structured `DataValidation` report sheet, and ultimately reducing manual data cleaning time through automated checks.
 
+The core subroutine `RunDataValidation()` orchestrates the process by iterating over all sheets and calling specific validator modules.
+Each validator applies a structured set of checks:
+1. Structural validation
+2. Data type and range validation
+3. Referential integrity checks
+4. Logical consistency checks
+
+The `DataValidation` sheet has five columns where the detected issues are reported.
+
+Note to myself: Insert example screenshot here
+
+The invalid or inconsistent cells are highlighted in the sheets as well (light red color=errors, missing values; light yellow color=warnings, suspicious values) The `DataValidation` report combined with the on-sheet highlighting provides a complete traceability for data cleansing.
 
 ## Modeling and KPI computation
 
