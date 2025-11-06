@@ -82,7 +82,9 @@ Manual checks (COUNTIF/COUNTIFS, SUMPRODUCT) verify keys and relationships befor
 
 Join blueprint: It shows which tables join on which keys, and the exact lookup formulas (INDEX/MATCH, COUNTIFS keys, helper keys).
 
-## Data preparation and cleaning
+## Data preparation and cleaning (VBA)
+
+
 
 ## Modeling and KPI computation
 
